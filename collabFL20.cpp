@@ -25,6 +25,7 @@ void menu6Dominguez();
 void menu22Turcios();
 void menu21Tourkakis();
 void menu8Fuentes();
+void DoomLogoFanta();
 
 // ***************************************************************
 // END OF FUNCTION PROTOTYPE AREA
@@ -70,7 +71,8 @@ int main()
             case 6:                 // Dominguez - call to function goes here
                   menu6Dominguez();
                 break;
-            case 7:                 // Fanta - call to function goes here
+            case 7:       
+                DoomLogoFanta();     // Fanta - call to function goes here
                 break;
             case 8:                 // Fuentes - call to function goes here
                 menu8Fuentes();
@@ -417,3 +419,22 @@ void menu8Fuentes()
                                                                             // of polygon
     cout << "The area of your polygon is " << area << " square units" << endl;
 }
+
+// *****************************************************************************************
+// MENU ID:          7
+// FUNCTION:         DoomLogoFanta()
+// DESCRIPTION:      Displays the Doom Logo
+// OUTPUT EXAMPLE:   Outputs the Doom Logo in ASCII art (because I was too lazy to write any logic, and I like Doom.)
+// *****************************************************************************************
+
+void DoomLogoFanta() {
+    cout << "    _____   _____  _____ ___  ___   " << endl;
+    cout << "    |  _  \\/  _  \\/  _  \\|  \\/  |   " << endl;
+    cout << "    | | | || | | || | | || |    |   " << endl;
+    cout << "    | | | || | | || | | || |  | |   " << endl;
+    cout << "    | |/  ||  \\| || |/  || |  | |   " << endl;
+    cout << "    |   /   \\___/  \\___/  \\ \\/| |   " << endl;
+    cout << "    | /                        \\|   " << endl;
+    cout << "                                    " << endl;
+}
+//It looks hideous here, but it outputs correctly.
